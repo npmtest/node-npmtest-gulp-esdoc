@@ -35,20 +35,32 @@
 ```json
 
 {
-    "name": "gulp-esdoc",
-    "version": "0.4.0",
+    "author": {
+        "name": "nanopx"
+    },
+    "bugs": {
+        "url": "https://github.com/nanopx/gulp-esdoc/issues"
+    },
+    "dependencies": {
+        "esdoc": "^0.5.2",
+        "gulp-util": "^3.0.8",
+        "through2": "^2.0.3"
+    },
     "description": "Gulp plugin for ESDoc",
-    "main": "index.js",
+    "devDependencies": {
+        "event-stream": "^3.3.4",
+        "mocha": "^3.2.0",
+        "should": "^11.1.2"
+    },
     "directories": {
         "test": "test"
     },
-    "scripts": {
-        "test": "mocha"
+    "dist": {
+        "shasum": "6836601e658b621fe843a8cfcba782c56f4dd7e1",
+        "tarball": "https://registry.npmjs.org/gulp-esdoc/-/gulp-esdoc-0.4.0.tgz"
     },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/nanopx/gulp-esdoc.git"
-    },
+    "gitHead": "a6a50429a51b40b5fb66212b948d0fb426569455",
+    "homepage": "https://github.com/nanopx/gulp-esdoc#readme",
     "keywords": [
         "gulp",
         "plugin",
@@ -56,22 +68,24 @@
         "ES6",
         "documentation"
     ],
-    "author": "nanopx",
     "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/nanopx/gulp-esdoc/issues"
+    "main": "index.js",
+    "maintainers": [
+        {
+            "name": "nanopx"
+        }
+    ],
+    "name": "gulp-esdoc",
+    "optionalDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/nanopx/gulp-esdoc.git"
     },
-    "homepage": "https://github.com/nanopx/gulp-esdoc#readme",
-    "devDependencies": {
-        "event-stream": "^3.3.4",
-        "mocha": "^3.2.0",
-        "should": "^11.1.2"
+    "scripts": {
+        "test": "mocha"
     },
-    "dependencies": {
-        "esdoc": "^0.5.2",
-        "gulp-util": "^3.0.8",
-        "through2": "^2.0.3"
-    }
+    "version": "0.4.0",
+    "bin": {}
 }
 ```
 
